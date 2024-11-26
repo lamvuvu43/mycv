@@ -10,7 +10,7 @@ const props = defineProps({
 <template>
     <box-content>
         <template #title>
-            <h1>Objective</h1>
+            <h1 class="uppercase">Objective</h1>
         </template>
         <div class="whitespace-break-spaces text-left">
             {{ props.content }}
