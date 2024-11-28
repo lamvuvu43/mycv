@@ -77,3 +77,6 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+ body {
+  background-color: rgba(94, 93, 93, 0.336);
+ }

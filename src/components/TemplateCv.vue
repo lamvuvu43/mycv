@@ -4,6 +4,7 @@ import ContactInfo from "./ContactInfo.vue";
 import Objective from "./Objective.vue";
 import Skill from "./Skill/Skill.vue";
 import Interest from "./Interest.vue";
+import Timeline from "./Timeline/Timeline.vue";
 
 console.log("demo template");
 const props = defineProps({
@@ -30,8 +31,8 @@ const props = defineProps({
         <interest class="pl-5" :interests="infoCv.interests"></interest>
       </div>
     </div>
-    <div class="flex-1 min-w-[700px] bg-slate-300">
-      <div class="">advanced info</div>
+    <div class="flex-1 w-[650px] bg-[#fff]">
+      <timeline :timelines="infoCv.timelines"></timeline>
     </div>
   </div>
 </template>
