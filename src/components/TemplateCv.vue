@@ -21,7 +21,7 @@ const props = defineProps({
     <div class="bg-primary min-h-screen w-[250px]">
       <div class="flex flex-col gap-5">
         <avatar
-          :avatar_url="infoCv.avatar_url"
+          avatar_url="https://scontent.fhan4-6.fna.fbcdn.net/v/t39.30808-6/459882640_2536544426531755_3318922635172065841_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGaV_WEk8E2gwwH3s-nPDUDeCJOxhj7SPZ4Ik7GGPtI9l4aapIC2J3_Rnpo2LGXpVOaeom81449zGyiyGGDwnQJ&_nc_ohc=V6YvCRgAvnIQ7kNvgGJXe5O&_nc_zt=23&_nc_ht=scontent.fhan4-6.fna&_nc_gid=AdWQ-EXIfFf52OguO9eO9HN&oh=00_AYDOG2UBavpdxtttLDzDtJ5vd4_HLVcFf52zA3GZEVb0LA&oe=675C744D"
           :fullname="infoCv.fullname"
           :position="infoCv.position">
         </avatar>
